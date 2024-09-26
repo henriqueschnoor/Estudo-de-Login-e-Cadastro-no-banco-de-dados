@@ -1,0 +1,57 @@
+body{
+    font-family:'Roboto', sabans-serif;
+    background-color:#836FFF ;
+    color:#ffffff;
+}
+
+a{
+text-decoration: none;
+color: aquamarine;
+}
+
+#cadastro{
+    margin-top: 100px;
+    text-align:center ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.email input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+}
+
+.senha input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+    margin-top: 20px;
+}
+
+.cadastro input{
+cursor: pointer;
+width: 120px;
+height: 40px;
+border-radius: 20px;
+border: none;
+background-color: rgb(134,243, 134);
+color : #141414;
+margin-top: 20px;
+}
+input::placeholder{
+    color: #b6b6b6;
+}
+caixa img{
+    width: focus;
+}
